@@ -1,7 +1,7 @@
 //All events page; index page within events
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+
 import EventList from "../../components/events/EventList";
 import LoadingScreen from "../../components/events/LoadingScreen";
 import SearchEvent from "../../components/events/SearchEvent";

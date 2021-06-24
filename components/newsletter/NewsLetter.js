@@ -31,7 +31,7 @@ const NewsLetter = () => {
   }
 
   return (
-    <div className="flex flex-col items-center w-3/4 h-20 p-1 m-auto border-red-600 border">
+    <div className="flex flex-col items-center w-3/4 h-20 p-1 m-auto">
       <h3 className="text-xl font-bold text-gray-600 mb-1">
         Drop your email for event updates
       </h3>

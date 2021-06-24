@@ -4,6 +4,8 @@ import ErrorEvent from "../../components/events/ErrorEvent";
 import EventDetails from "../../components/events/eventid/EventDetails";
 import LoadingScreen from "../../components/events/LoadingScreen";
 import { getAllEvents } from "../../utils/api-utils/getAllEvents";
+import Comment from '../../components/comments/Comment'
+
 
 const EventDetail = (props) => {
   const router = useRouter();
@@ -46,6 +48,8 @@ const EventDetail = (props) => {
           />
         </div>
       </div>
+      
+      <Comment eventId={currentEvent.id}/>
     </div>
   );
 };
